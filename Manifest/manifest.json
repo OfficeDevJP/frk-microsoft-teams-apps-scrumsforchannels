@@ -19,8 +19,8 @@
     "full": "Scrums for Channels"
   },
   "description": {
-    "short": "Scrums for Channels helps you get status updates from your team.",
-    "full": "Scrums for Channels is a simple scrum assistant that will enable users to run asynchronous stand-up meetings and provide an easy way for the users to share their daily updates."
+    "short": "Scrums for Channelsはチーム内のあなたのスクラム ステータスを更新します。",
+    "full": "Scrums for Channels はスクラムを実現するためのシンプルなツールで非同期で実行されます。簡単に日々のアップデートの共有を実現するために用意されています。"
   },
   "accentColor": "#FFCCD8",
   "bots": [
@@ -36,12 +36,12 @@
           ],
           "commands": [
             {
-              "title": "Open settings",
-              "description": "Opens the settings task module to add or update scrums"
+              "title": "設定を開く",
+              "description": "タスクの設定を開きスクラムを追加または更新する。"
             },
             {
-              "title": "Help",
-              "description": "Shows the operations I can perform"
+              "title": "ヘルプ",
+              "description": "実行できる動作を確認"
             }
           ]
         }

@@ -100,11 +100,17 @@ namespace Microsoft.Teams.Apps.ScrumStatus.Common.BackgroundService
 
                     // if the start time is scheduled for next 30 minutes, then start processing else skip.
                     // if the start window is missed, scrum will be skipped for the day and will be scheduled on next day.
-                    if (schedulerTime.TimeOfDay <= scheduledStartTime.TimeOfDay
-                        && schedulerTime.AddMinutes(30).TimeOfDay > scheduledStartTime.TimeOfDay)
+                    
+                    // 2020/8/31 change basic time.UTC+9h is JPN time.
+                    if ((System.DateTime.Now.AddHours(9).DayOfWeek != DayOfWeek.Saturday) &&
+                        (System.DateTime.Now.AddHours(9).DayOfWeek != DayOfWeek.Sunday))
                     {
-                        this.logger.LogInformation($"scrum for team {scrumConfiguration.ScrumTeamName} is ready to start {scheduledStartTime.TimeOfDay}");
-                        await this.startScrumActivityHelper.ScrumStartActivityAsync(scrumConfiguration);
+                        if (schedulerTime.TimeOfDay <= scheduledStartTime.TimeOfDay
+                        && schedulerTime.AddMinutes(30).TimeOfDay > scheduledStartTime.TimeOfDay)
+                        {
+                            this.logger.LogInformation($"scrum for team {scrumConfiguration.ScrumTeamName} is ready to start {scheduledStartTime.TimeOfDay}");
+                            await this.startScrumActivityHelper.ScrumStartActivityAsync(scrumConfiguration);
+                        }
                     }
                 }
             }
