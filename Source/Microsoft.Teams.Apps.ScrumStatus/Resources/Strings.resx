@@ -118,282 +118,282 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="SettingsButtonText" xml:space="preserve">
-    <value>Settings</value>
+    <value>設定</value>
     <comment>Text to show on settings button.</comment>
   </data>
   <data name="HelpCardTitleText" xml:space="preserve">
-    <value>I want to help you! Select or type one of these commands:</value>
+    <value>お困りですか？コマンドを選択または入力してください：</value>
     <comment>Title for Help card.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong and I can’t do that right now. Try again in a few minutes.</value>
+    <value>問題が発生し動作の実行ができません。数分後に再試行してください。</value>
     <comment>Error message to show to user when error.</comment>
   </data>
   <data name="ScrumDetailsButtonText" xml:space="preserve">
-    <value>Scrum details</value>
+    <value>スクラムの詳細</value>
     <comment>Text to show on scrum details button.</comment>
   </data>
   <data name="SettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>設定</value>
     <comment>Text to show in settings task module.</comment>
   </data>
   <data name="SettingsCardTitleText" xml:space="preserve">
-    <value>Go to Settings to add a new scrum or edit existing ones:</value>
+    <value>設定に移動し新しいスクラムを作成または既存のスクラムを編集する：</value>
     <comment>Settings card title text.</comment>
   </data>
   <data name="ScrumDetailsTitle" xml:space="preserve">
-    <value>Scrum details</value>
+    <value>スクラムの詳細</value>
     <comment>Scrum details title text in scrum details task module.</comment>
   </data>
   <data name="WelcomeCardEndScrumTextDesc" xml:space="preserve">
-    <value>When you’re done, select End scrum at the bottom of the form. Once you end a scrum, no one can make any more updates to that scrum. Just start a new scrum when you’re ready to get status updates again.</value>
+    <value>スクラムが完了したらスクラム終了を選択してください。スクラムを終了すると誰も内容を更新することはできなくなります。内容を更新したい場合は新しいスクラムを開始してください。</value>
     <comment>End scrum text description in welcome card.</comment>
   </data>
   <data name="WelcomeCardEndScrumTextHeading" xml:space="preserve">
-    <value>**End scrum**</value>
+    <value>**スクラム終了**</value>
     <comment>Sub heading text for end scrum in welcome card.</comment>
   </data>
   <data name="WelcomeCardSettingsButtonText" xml:space="preserve">
-    <value>Settings</value>
+    <value>設定</value>
     <comment>Settings button text in welcome card.</comment>
   </data>
   <data name="WelcomeCardStartScrumTextDesc" xml:space="preserve">
-    <value>When you ask me to start a scrum, I’ll create a form where people can enter their current status. Everyone can look at these updates.</value>
+    <value>スクラムが開始されるとユーザーが現在のステータスを入力するフォームが作成されます。更新内容はチャネル内のすべてのユーザーが確認可能です。</value>
     <comment>Start scrum text description in welcome card.</comment>
   </data>
   <data name="WelcomeCardStartScrumTextHeading" xml:space="preserve">
-    <value>**Start scrum**</value>
+    <value>**スクラム開始**</value>
     <comment>Sub heading text for start scrum in welcome card.</comment>
   </data>
   <data name="WelcomeCardSubtitleText" xml:space="preserve">
-    <value>I help you get status updates from your team. Everyone in the channel can participate.</value>
+    <value>このアプリでチームのステータスや更新情報を確認可能です。チャネル内のすべてのメンバーが利用できます。</value>
     <comment>Welcome card subtitle text.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome!</value>
+    <value>ようこそ！</value>
     <comment>Welcome card title text.</comment>
   </data>
   <data name="WelcomeCardWantToStartScrumText" xml:space="preserve">
-    <value>Want to start a scrum now?</value>
+    <value>スクラムを開始しますか？</value>
     <comment>Want to start a scrum now in welcome card.</comment>
   </data>
   <data name="UpdateStatusAnyBlockersPlaceholder" xml:space="preserve">
-    <value>Enter info (300 characters max)</value>
+    <value>内容を入力してください（最大300字）</value>
     <comment>Placeholder for any blockers input field on update status task module.</comment>
   </data>
   <data name="UpdateStatusAnyBlockersTitle" xml:space="preserve">
-    <value>Any blockers?</value>
+    <value>解決が必要な相談事項があれば共有してください</value>
     <comment>Title for any blockers field on update status task module.</comment>
   </data>
   <data name="UpdateStatusSubmitButtonText" xml:space="preserve">
-    <value>Submit</value>
+    <value>送信</value>
     <comment>Text for submit button on update status task module.</comment>
   </data>
   <data name="UpdateStatusTodayDescriptionPlaceholder" xml:space="preserve">
-    <value>Enter info (300 characters max)</value>
+    <value>内容を入力してください（最大300字）</value>
     <comment>Placeholder text for today task description input field on update status task module.</comment>
   </data>
   <data name="UpdateStatusTodayDescriptionTitle" xml:space="preserve">
-    <value>*What will you do today?</value>
+    <value>次回までの達成目標を共有してください</value>
     <comment>Title for today task description field on update status task module.</comment>
   </data>
   <data name="UpdateStatusYesterdayDescriptionPlaceholder" xml:space="preserve">
-    <value>Enter info (300 characters max)</value>
+    <value>内容を入力してください（最大300字）</value>
     <comment>Placeholder text for yesterday task description input field on update status task module.</comment>
   </data>
   <data name="UpdateStatusYesterdayDescriptionTitle" xml:space="preserve">
-    <value>*What did you do yesterday?</value>
+    <value>現在までの進行状況を共有してください</value>
     <comment>Title for yesterday task description field on update status task module.</comment>
   </data>
   <data name="UpdateStatusTodayDescriptionErrorMessage" xml:space="preserve">
-    <value>This field can't be empty</value>
+    <value>このフィールドは空欄にできません</value>
     <comment>Error message for today task description field on update status task module.</comment>
   </data>
   <data name="UpdateStatusYesterdayDescriptionErrorMessage" xml:space="preserve">
-    <value>This field can't be empty</value>
+    <value>このフィールドは空欄にできません</value>
     <comment>Error message for yesterday task description field on update status task module.</comment>
   </data>
   <data name="UpdateStatusTitle" xml:space="preserve">
-    <value>Update status</value>
+    <value>ステータスの更新</value>
     <comment>Title for update status task module.</comment>
   </data>
   <data name="EndScrumButtonText" xml:space="preserve">
-    <value>End scrum</value>
+    <value>スクラム終了</value>
     <comment>Text to show on end scrum button.</comment>
   </data>
   <data name="AddNewScrumButtonText" xml:space="preserve">
-    <value>Add a new scrum</value>
+    <value>スクラムの追加</value>
     <comment>Text to show on add new scrum button on settings page.</comment>
   </data>
   <data name="AddToChannelTitle" xml:space="preserve">
-    <value>Channel</value>
+    <value>チャネル</value>
     <comment>Add to channel title on settings page.</comment>
   </data>
   <data name="ChannelNameValidationText" xml:space="preserve">
-    <value>Select channel</value>
+    <value>チャネルを選択してください</value>
     <comment>Validation message for channel name on settings page.</comment>
   </data>
   <data name="DuplicateScrumValidationText" xml:space="preserve">
-    <value>A scrum has already been set up for this team and channel</value>
+    <value>同じ名前のスクラムが既にチャネルに設定されています</value>
     <comment>Validation message for duplicate scrum details on settings page.</comment>
   </data>
   <data name="MembersListTitle" xml:space="preserve">
-    <value>Scrum members</value>
+    <value>スクラム メンバー</value>
     <comment>Members list title on settings page.</comment>
   </data>
   <data name="SaveButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
     <comment>Text to show on save button on settings page.</comment>
   </data>
   <data name="SelectChannelPlaceholder" xml:space="preserve">
-    <value>Select channel</value>
+    <value>チャネルの選択</value>
     <comment>Text to show in channel placeholder on settings page.</comment>
   </data>
   <data name="SelectTimePlaceholder" xml:space="preserve">
-    <value>Select time</value>
+    <value>時間の選択</value>
     <comment>Text to show in start time placeholder on settings page.</comment>
   </data>
   <data name="SelectTimeZonePlaceholder" xml:space="preserve">
-    <value>Select time zone</value>
+    <value>タイムゾーンの選択</value>
     <comment>Text to show in time zone placeholder on settings page.</comment>
   </data>
   <data name="StartEveryDayTitle" xml:space="preserve">
-    <value>Daily start time</value>
+    <value>毎日の開始時間</value>
     <comment>Start every day title on settings page.</comment>
   </data>
   <data name="StartTimeValidationText" xml:space="preserve">
-    <value>Select daily start time</value>
+    <value>開始時間を選択してください</value>
     <comment>Validation message for start time on settings page.</comment>
   </data>
   <data name="TeamMembersValidationText" xml:space="preserve">
-    <value>Add two or more team members</value>
+    <value>メンバーは2人以上選択してください</value>
     <comment>Validation message for team members on settings page.</comment>
   </data>
   <data name="TeamNameTitle" xml:space="preserve">
-    <value>Team name</value>
+    <value>チーム名</value>
     <comment>Team name title on settings page.</comment>
   </data>
   <data name="TeamNameValidationText" xml:space="preserve">
-    <value>Team name can't be empty</value>
+    <value>チーム名は空欄にできません</value>
     <comment>Validation message for team name on settings page.</comment>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>タイムゾーン</value>
     <comment>Time zone title on settings page.</comment>
   </data>
   <data name="TimeZoneValidationText" xml:space="preserve">
-    <value>Select a time zone</value>
+    <value>タイムゾーンを選択してください</value>
     <comment>Validation message for time zone on settings page.</comment>
   </data>
   <data name="ErrorSavingScrumData" xml:space="preserve">
-    <value>Something went wrong saving this info. Try again in a few minutes.</value>
+    <value>保存時に問題が発生しました。数分後に再試行してください。</value>
     <comment>Error message to show in saving scrum data.</comment>
   </data>
   <data name="ErrorUserIsNotPartOfRunningScrumAndTryToEndScrum" xml:space="preserve">
-    <value>{0}, only members of this scrum can do this. Ask a colleague to add you.</value>
+    <value>{0}, スクラムメンバーのみが実行できる動作です。メンバーへの追加を依頼してください。</value>
     <comment>Error message to show that user is not part of running scrum and clicks on end scrum.</comment>
   </data>
   <data name="UpdateStatusButtonText" xml:space="preserve">
-    <value>Update status</value>
+    <value>ステータスの更新</value>
     <comment>Text to show on update status button.</comment>
   </data>
   <data name="ScrumDetailsAnyBlockersTitle" xml:space="preserve">
-    <value>Any blockers?</value>
+    <value>解決が必要な相談事項があれば共有してください</value>
     <comment>Title for any blockers field on scrum details task module.</comment>
   </data>
   <data name="ScrumDetailsTodayTaskDescriptionTitle" xml:space="preserve">
-    <value>What will you do today?</value>
+    <value>次回までの達成目標を共有してください</value>
     <comment>Title for today task description field on scrum details task module.</comment>
   </data>
   <data name="ScrumDetailsYesterdayTaskDescriptionTitle" xml:space="preserve">
-    <value>What did you do yesterday?</value>
+    <value>現在までの進行状況を共有してください</value>
     <comment>Title for yesterday task description field on scrum details task module.</comment>
   </data>
   <data name="BotFailureTitle" xml:space="preserve">
-    <value>Bot failure</value>
+    <value>Botが失敗しました</value>
     <comment>Bot failure title on task module when bot fails.</comment>
   </data>
   <data name="TaskModuleInvalidCommandText" xml:space="preserve">
-    <value>Invalid command for task module fetch activity. Command is: {0}</value>
+    <value>タスクモジュールのフェッチで無効なコマンドが検出されました。コマンド：{0}</value>
     <comment>Invalid command text in task module fetch action.</comment>
   </data>
   <data name="ScrumStatusCompletedForUser" xml:space="preserve">
-    <value>Completed</value>
+    <value>完了済</value>
     <comment>Text for scrum status as "Completed" to be shown for each participants in scrum details task module.</comment>
   </data>
   <data name="ScrumStatusNotStarted" xml:space="preserve">
-    <value>Not started</value>
+    <value>未実行</value>
     <comment>Text for scrum status as "Not started" to be shown in scrum details task module.</comment>
   </data>
   <data name="ScrumDetailsRespondedVsTotalUserStatus" xml:space="preserve">
-    <value>Status: {0} / {1} completed</value>
+    <value>ステータス: {0} / {1} 完了済</value>
     <comment>Text to show responded vs total user count in scrum details task module.</comment>
   </data>
   <data name="StartScrumCardBlockedText" xml:space="preserve">
-    <value>{0} people have reported being blocked...</value>
+    <value>{0}人のユーザーが問題を抱えています...</value>
     <comment>Text to show in the middle of the start scrum card when any first status is updated.</comment>
   </data>
   <data name="StartScrumCardWelcomeText" xml:space="preserve">
-    <value>Hey guys! Can't wait to hear from you fellows...</value>
+    <value>こんにちは！スクラムが開始されました。入力を行いましょう。</value>
     <comment>Text to show in the middle of the start scrum card when it is sent for the first time in a day.</comment>
   </data>
   <data name="ScrumRunningStatusActive" xml:space="preserve">
-    <value>Active</value>
+    <value>アクティブ</value>
     <comment>Text that represents scrum is active.</comment>
   </data>
   <data name="ScrumRunningStatusClosed" xml:space="preserve">
-    <value>Closed</value>
+    <value>終了済</value>
     <comment>Text that represents scrum is completed.</comment>
   </data>
   <data name="ErrorScrumConfigurationDetailsNullOrInactive" xml:space="preserve">
-    <value>{0}, this scrum has been deleted or inactive.</value>
+    <value>{0}, このスクラムはすでに削除されたか、非アクティブに設定されています。</value>
     <comment>Error message to show if scrum configuration details are null or scrum is inactive.</comment>
   </data>
   <data name="ErrorScrumDoesNotExist" xml:space="preserve">
-    <value>{0}, this scrum has been deleted.</value>
+    <value>{0} このスクラムは削除されました。</value>
     <comment>Error message to show when scrum does not exist.</comment>
   </data>
   <data name="DeleteButtonText" xml:space="preserve">
-    <value>Delete</value>
+    <value>削除</value>
     <comment>Text to show on delete button on settings page.</comment>
   </data>
   <data name="ScrumEnableButtonTitle" xml:space="preserve">
-    <value>Enable</value>
+    <value>有効</value>
     <comment>Text to show on scrum enable button on settings page.</comment>
   </data>
   <data name="SelectUserPlaceholder" xml:space="preserve">
-    <value>Select User</value>
+    <value>ユーザーの選択</value>
     <comment>Placeholder text for members list dropdown on settings page.</comment>
   </data>
   <data name="SuccessMessageAfterEndingScrum" xml:space="preserve">
-    <value>Nice work! This scrum is completed.</value>
+    <value>おつかれさまでした！このスクラムは完了しました。</value>
     <comment>Success message to show to user when scrum is ended.</comment>
   </data>
   <data name="ScrumDetailsUserIsBlocked" xml:space="preserve">
-    <value>(Blocked!)</value>
+    <value>（問題を抱えています！）</value>
     <comment>Text to show when user is blocked in scrum details task module.</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>キャンセル</value>
     <comment>Text to show on cancel button on settings page.</comment>
   </data>
   <data name="NoMatchesFoundText" xml:space="preserve">
-    <value>We couldn't find any matches.</value>
+    <value>結果が見つかりません。</value>
     <comment>Text to show when there are no matches to condition.</comment>
   </data>
   <data name="ErrorUserIsNotPartOfRunningScrumAndTryUpdateStatus" xml:space="preserve">
-    <value>{0}, only members of this scrum can do this. Ask a colleague to add you.</value>
+    <value>{0}, スクラムメンバーのみが実行できる動作です。メンバーへの追加を依頼してください。</value>
     <comment>Error message to show that user is not part of running scrum and clicks on update status.</comment>
   </data>
   <data name="ErrorScrumDeleted" xml:space="preserve">
-    <value>{0} scrum has been deleted.</value>
+    <value>{0} スクラムはすでに削除されています。</value>
     <comment>Error message to show when scrum configuration details have been deleted from storage.</comment>
   </data>
   <data name="ErrorNoScrumMembersPresent" xml:space="preserve">
-    <value>No scrum members present in this scrum.</value>
+    <value>スクラムメンバーがいません。</value>
     <comment>Error message to show when there are no scrum members in the scrum.</comment>
   </data>
   <data name="GeneralChannel" xml:space="preserve">
-    <value>General</value>
+    <value>一般</value>
   </data>
 </root>

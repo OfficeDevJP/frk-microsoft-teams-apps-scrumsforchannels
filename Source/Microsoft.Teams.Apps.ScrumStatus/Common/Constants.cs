@@ -12,12 +12,12 @@ namespace Microsoft.Teams.Apps.ScrumStatus.Common
         /// <summary>
         /// Command to show help card.
         /// </summary>
-        public const string Help = "HELP";
+        public const string Help = "ヘルプ";
 
         /// <summary>
         /// Command to show settings card.
         /// </summary>
-        public const string Settings = "OPEN SETTINGS";
+        public const string Settings = "設定を開く";
 
         /// <summary>
         /// Command to end scrum.
@@ -37,7 +37,7 @@ namespace Microsoft.Teams.Apps.ScrumStatus.Common
         /// <summary>
         /// Settings task module command when invoked.
         /// </summary>
-        public const string SettingsTaskModuleCommand = "OPEN SETTINGS";
+        public const string SettingsTaskModuleCommand = "設定を開く";
 
         /// <summary>
         /// Represents task module task/fetch string.
